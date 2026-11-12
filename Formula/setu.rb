@@ -12,7 +12,7 @@ class Setu < Formula
       sha256 "cf901ef04c12252b461f83a0e4e7619e423edbfe075b13a298792ca0a30cc08e"
     end
   end
-  license "UNLICENSED"
+  license "MIT"
 
   BINARY_ALIASES = {
     "aarch64-apple-darwin": {},
