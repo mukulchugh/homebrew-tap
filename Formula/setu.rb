@@ -1,15 +1,15 @@
 class Setu < Formula
   desc "Runs every worktree's app and workers side by side, each at its own local URL"
   homepage "https://github.com/mukulchugh/setu"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mukulchugh/setu/releases/download/v0.1.1/setu-aarch64-apple-darwin.tar.xz"
-      sha256 "f96fe7d480022e984706bd29afd6941301f4e0bb8b9996603b2af9a3a984ec5c"
+      url "https://github.com/mukulchugh/setu/releases/download/v0.1.2/setu-aarch64-apple-darwin.tar.xz"
+      sha256 "7f1415ff0ad7b78f3fc6295b387b1d5e0d53b268529e9bf7e44342e7938bc9bf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mukulchugh/setu/releases/download/v0.1.1/setu-x86_64-apple-darwin.tar.xz"
-      sha256 "cf901ef04c12252b461f83a0e4e7619e423edbfe075b13a298792ca0a30cc08e"
+      url "https://github.com/mukulchugh/setu/releases/download/v0.1.2/setu-x86_64-apple-darwin.tar.xz"
+      sha256 "f896602ab32a77ab2f0094deae75cd4c8f628420779deeee363842dad8644a0b"
     end
   end
   license "MIT"
